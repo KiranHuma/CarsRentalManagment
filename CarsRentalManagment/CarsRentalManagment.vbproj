@@ -149,6 +149,9 @@
     <EmbeddedResource Include="Rent.resx">
       <DependentUpon>Rent.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Returns.resx">
+      <DependentUpon>Returns.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
