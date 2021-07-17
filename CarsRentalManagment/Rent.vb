@@ -17,8 +17,9 @@ Public Class Rent
 
     End Sub
     Private Sub fillregistration()
+        Dim Status = "Yes"
         con.open()
-        Dim sql = "select * from CarTbl"
+        Dim sql = "select * from CarTbl where Available=" & Status & ""
         Dim cmd As New SqlCommand(sql, con)
         Dim adapter As New SqlDataAdapter(cmd)
         Dim Tbl As New DataTable()
@@ -146,7 +147,7 @@ Public Class Rent
         GetCarRate()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
         GetCarRate()
     End Sub
 End Class

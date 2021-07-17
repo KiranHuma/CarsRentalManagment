@@ -22,9 +22,9 @@ Partial Class Rent
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Rent))
         Me.rentdgv = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -57,8 +57,6 @@ Partial Class Rent
         Me.Button1 = New System.Windows.Forms.Button()
         Me.RentDate = New System.Windows.Forms.DateTimePicker()
         Me.ReturnDate = New System.Windows.Forms.DateTimePicker()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.getcostcar = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         CType(Me.rentdgv, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -72,30 +70,30 @@ Partial Class Rent
         '
         'rentdgv
         '
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
-        Me.rentdgv.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
+        Me.rentdgv.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
         Me.rentdgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.rentdgv.BackgroundColor = System.Drawing.Color.White
         Me.rentdgv.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.rentdgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.rentdgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.rentdgv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.rentdgv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
         Me.rentdgv.ColumnHeadersHeight = 4
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.rentdgv.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle15.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.rentdgv.DefaultCellStyle = DataGridViewCellStyle15
         Me.rentdgv.EnableHeadersVisualStyles = False
         Me.rentdgv.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.rentdgv.Location = New System.Drawing.Point(84, 504)
@@ -337,6 +335,7 @@ Partial Class Rent
         'FeesTb
         '
         Me.FeesTb.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.FeesTb.Enabled = False
         Me.FeesTb.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FeesTb.ForeColor = System.Drawing.Color.Crimson
         Me.FeesTb.HintForeColor = System.Drawing.Color.Empty
@@ -472,47 +471,12 @@ Partial Class Rent
         Me.ReturnDate.Size = New System.Drawing.Size(211, 31)
         Me.ReturnDate.TabIndex = 44
         '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.MidnightBlue
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Trebuchet MS", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(443, 403)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(139, 42)
-        Me.Button2.TabIndex = 45
-        Me.Button2.Text = "Add"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'getcostcar
-        '
-        Me.getcostcar.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.getcostcar.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.getcostcar.ForeColor = System.Drawing.Color.Crimson
-        Me.getcostcar.HintForeColor = System.Drawing.Color.Empty
-        Me.getcostcar.HintText = ""
-        Me.getcostcar.isPassword = False
-        Me.getcostcar.LineFocusedColor = System.Drawing.Color.Blue
-        Me.getcostcar.LineIdleColor = System.Drawing.Color.MidnightBlue
-        Me.getcostcar.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.getcostcar.LineThickness = 4
-        Me.getcostcar.Location = New System.Drawing.Point(1244, 302)
-        Me.getcostcar.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.getcostcar.Name = "getcostcar"
-        Me.getcostcar.Size = New System.Drawing.Size(97, 39)
-        Me.getcostcar.TabIndex = 46
-        Me.getcostcar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
         'Rent
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1364, 786)
-        Me.Controls.Add(Me.getcostcar)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ReturnDate)
         Me.Controls.Add(Me.RentDate)
         Me.Controls.Add(Me.Button4)
@@ -582,6 +546,4 @@ Partial Class Rent
     Friend WithEvents Button1 As Button
     Friend WithEvents RentDate As DateTimePicker
     Friend WithEvents ReturnDate As DateTimePicker
-    Friend WithEvents Button2 As Button
-    Friend WithEvents getcostcar As Bunifu.Framework.UI.BunifuMaterialTextbox
 End Class
