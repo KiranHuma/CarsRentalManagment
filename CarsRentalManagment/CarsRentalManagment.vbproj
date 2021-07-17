@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0058CB11-EA81-4F38-A5D3-944DC63A914C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>CarsRentalManagment.My.MyApplication</StartupObject>
+    <StartupObject>CarsRentalManagment.Cars</StartupObject>
     <RootNamespace>CarsRentalManagment</RootNamespace>
     <AssemblyName>CarsRentalManagment</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -123,6 +123,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
