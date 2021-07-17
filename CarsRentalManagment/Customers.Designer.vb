@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Customers
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,12 @@ Partial Class Customers
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Customers))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Customers))
-        Me.Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
@@ -39,11 +38,11 @@ Partial Class Customers
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.BunifuMaterialTextbox3 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.CustPhoneTb = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.BunifuMaterialTextbox2 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.CustAddressTb = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.BunifuMaterialTextbox1 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.CustNameTb = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -53,7 +52,7 @@ Partial Class Customers
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.customerdgv = New Guna.UI2.WinForms.Guna2DataGridView()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,65 +61,8 @@ Partial Class Customers
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        CType(Me.customerdgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Guna2DataGridView1
-        '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.Guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.Guna2DataGridView1.BackgroundColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.Guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.Guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.Guna2DataGridView1.ColumnHeadersHeight = 4
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Transparent
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
-        Me.Guna2DataGridView1.EnableHeadersVisualStyles = False
-        Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView1.Location = New System.Drawing.Point(72, 476)
-        Me.Guna2DataGridView1.Name = "Guna2DataGridView1"
-        Me.Guna2DataGridView1.RowHeadersVisible = False
-        Me.Guna2DataGridView1.RowHeadersWidth = 51
-        Me.Guna2DataGridView1.RowTemplate.Height = 24
-        Me.Guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.Guna2DataGridView1.Size = New System.Drawing.Size(1214, 293)
-        Me.Guna2DataGridView1.TabIndex = 34
-        Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
-        Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
-        Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
-        Me.Guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
-        Me.Guna2DataGridView1.ThemeStyle.ReadOnly = False
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
         'Label13
         '
@@ -156,7 +98,7 @@ Partial Class Customers
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(692, 6)
+        Me.PictureBox5.Location = New System.Drawing.Point(693, 6)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(48, 50)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -168,7 +110,7 @@ Partial Class Customers
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Trebuchet MS", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Crimson
-        Me.Label11.Location = New System.Drawing.Point(500, 26)
+        Me.Label11.Location = New System.Drawing.Point(501, 26)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(131, 29)
         Me.Label11.TabIndex = 20
@@ -254,24 +196,24 @@ Partial Class Customers
         Me.Label5.TabIndex = 25
         Me.Label5.Text = "Phone"
         '
-        'BunifuMaterialTextbox3
+        'CustPhoneTb
         '
-        Me.BunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox3.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuMaterialTextbox3.ForeColor = System.Drawing.Color.Crimson
-        Me.BunifuMaterialTextbox3.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox3.HintText = ""
-        Me.BunifuMaterialTextbox3.isPassword = False
-        Me.BunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.MidnightBlue
-        Me.BunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox3.LineThickness = 4
-        Me.BunifuMaterialTextbox3.Location = New System.Drawing.Point(835, 259)
-        Me.BunifuMaterialTextbox3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.BunifuMaterialTextbox3.Name = "BunifuMaterialTextbox3"
-        Me.BunifuMaterialTextbox3.Size = New System.Drawing.Size(211, 39)
-        Me.BunifuMaterialTextbox3.TabIndex = 24
-        Me.BunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.CustPhoneTb.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.CustPhoneTb.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CustPhoneTb.ForeColor = System.Drawing.Color.Crimson
+        Me.CustPhoneTb.HintForeColor = System.Drawing.Color.Empty
+        Me.CustPhoneTb.HintText = ""
+        Me.CustPhoneTb.isPassword = False
+        Me.CustPhoneTb.LineFocusedColor = System.Drawing.Color.Blue
+        Me.CustPhoneTb.LineIdleColor = System.Drawing.Color.MidnightBlue
+        Me.CustPhoneTb.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.CustPhoneTb.LineThickness = 4
+        Me.CustPhoneTb.Location = New System.Drawing.Point(835, 259)
+        Me.CustPhoneTb.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.CustPhoneTb.Name = "CustPhoneTb"
+        Me.CustPhoneTb.Size = New System.Drawing.Size(211, 39)
+        Me.CustPhoneTb.TabIndex = 24
+        Me.CustPhoneTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Label4
         '
@@ -284,24 +226,24 @@ Partial Class Customers
         Me.Label4.TabIndex = 23
         Me.Label4.Text = "Address"
         '
-        'BunifuMaterialTextbox2
+        'CustAddressTb
         '
-        Me.BunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox2.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuMaterialTextbox2.ForeColor = System.Drawing.Color.Crimson
-        Me.BunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox2.HintText = ""
-        Me.BunifuMaterialTextbox2.isPassword = False
-        Me.BunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.MidnightBlue
-        Me.BunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox2.LineThickness = 4
-        Me.BunifuMaterialTextbox2.Location = New System.Drawing.Point(523, 259)
-        Me.BunifuMaterialTextbox2.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.BunifuMaterialTextbox2.Name = "BunifuMaterialTextbox2"
-        Me.BunifuMaterialTextbox2.Size = New System.Drawing.Size(211, 39)
-        Me.BunifuMaterialTextbox2.TabIndex = 22
-        Me.BunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.CustAddressTb.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.CustAddressTb.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CustAddressTb.ForeColor = System.Drawing.Color.Crimson
+        Me.CustAddressTb.HintForeColor = System.Drawing.Color.Empty
+        Me.CustAddressTb.HintText = ""
+        Me.CustAddressTb.isPassword = False
+        Me.CustAddressTb.LineFocusedColor = System.Drawing.Color.Blue
+        Me.CustAddressTb.LineIdleColor = System.Drawing.Color.MidnightBlue
+        Me.CustAddressTb.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.CustAddressTb.LineThickness = 4
+        Me.CustAddressTb.Location = New System.Drawing.Point(523, 259)
+        Me.CustAddressTb.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.CustAddressTb.Name = "CustAddressTb"
+        Me.CustAddressTb.Size = New System.Drawing.Size(211, 39)
+        Me.CustAddressTb.TabIndex = 22
+        Me.CustAddressTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Label3
         '
@@ -314,24 +256,24 @@ Partial Class Customers
         Me.Label3.TabIndex = 21
         Me.Label3.Text = "Customer Name"
         '
-        'BunifuMaterialTextbox1
+        'CustNameTb
         '
-        Me.BunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.BunifuMaterialTextbox1.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuMaterialTextbox1.ForeColor = System.Drawing.Color.Crimson
-        Me.BunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty
-        Me.BunifuMaterialTextbox1.HintText = ""
-        Me.BunifuMaterialTextbox1.isPassword = False
-        Me.BunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.MidnightBlue
-        Me.BunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Blue
-        Me.BunifuMaterialTextbox1.LineThickness = 4
-        Me.BunifuMaterialTextbox1.Location = New System.Drawing.Point(205, 259)
-        Me.BunifuMaterialTextbox1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.BunifuMaterialTextbox1.Name = "BunifuMaterialTextbox1"
-        Me.BunifuMaterialTextbox1.Size = New System.Drawing.Size(211, 39)
-        Me.BunifuMaterialTextbox1.TabIndex = 20
-        Me.BunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.CustNameTb.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.CustNameTb.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CustNameTb.ForeColor = System.Drawing.Color.Crimson
+        Me.CustNameTb.HintForeColor = System.Drawing.Color.Empty
+        Me.CustNameTb.HintText = ""
+        Me.CustNameTb.isPassword = False
+        Me.CustNameTb.LineFocusedColor = System.Drawing.Color.Blue
+        Me.CustNameTb.LineIdleColor = System.Drawing.Color.MidnightBlue
+        Me.CustNameTb.LineMouseHoverColor = System.Drawing.Color.Blue
+        Me.CustNameTb.LineThickness = 4
+        Me.CustNameTb.Location = New System.Drawing.Point(205, 259)
+        Me.CustNameTb.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.CustNameTb.Name = "CustNameTb"
+        Me.CustNameTb.Size = New System.Drawing.Size(211, 39)
+        Me.CustNameTb.TabIndex = 20
+        Me.CustNameTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Label2
         '
@@ -368,7 +310,7 @@ Partial Class Customers
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 47)
+        Me.PictureBox1.Location = New System.Drawing.Point(11, 47)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(48, 50)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -443,31 +385,88 @@ Partial Class Customers
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'customerdgv
+        '
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.customerdgv.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.customerdgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.customerdgv.BackgroundColor = System.Drawing.Color.White
+        Me.customerdgv.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.customerdgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.customerdgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.customerdgv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.customerdgv.ColumnHeadersHeight = 26
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.customerdgv.DefaultCellStyle = DataGridViewCellStyle3
+        Me.customerdgv.EnableHeadersVisualStyles = False
+        Me.customerdgv.GridColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.customerdgv.Location = New System.Drawing.Point(48, 527)
+        Me.customerdgv.Name = "customerdgv"
+        Me.customerdgv.RowHeadersVisible = False
+        Me.customerdgv.RowHeadersWidth = 51
+        Me.customerdgv.RowTemplate.Height = 24
+        Me.customerdgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.customerdgv.Size = New System.Drawing.Size(1214, 269)
+        Me.customerdgv.TabIndex = 39
+        Me.customerdgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.customerdgv.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.customerdgv.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
+        Me.customerdgv.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
+        Me.customerdgv.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
+        Me.customerdgv.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.customerdgv.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.customerdgv.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.Crimson
+        Me.customerdgv.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.customerdgv.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Trebuchet MS", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.customerdgv.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Black
+        Me.customerdgv.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.customerdgv.ThemeStyle.HeaderStyle.Height = 26
+        Me.customerdgv.ThemeStyle.ReadOnly = False
+        Me.customerdgv.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.Brown
+        Me.customerdgv.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.customerdgv.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
+        Me.customerdgv.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.customerdgv.ThemeStyle.RowsStyle.Height = 24
+        Me.customerdgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.customerdgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        '
         'Customers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1382, 833)
+        Me.Controls.Add(Me.customerdgv)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Guna2DataGridView1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.BunifuMaterialTextbox3)
+        Me.Controls.Add(Me.CustPhoneTb)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.BunifuMaterialTextbox2)
+        Me.Controls.Add(Me.CustAddressTb)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.BunifuMaterialTextbox1)
+        Me.Controls.Add(Me.CustNameTb)
         Me.Controls.Add(Me.Panel1)
-        Me.ForeColor = System.Drawing.Color.Transparent
+        Me.ForeColor = System.Drawing.Color.Black
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Customers"
         Me.Text = "Customers"
-        CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -478,12 +477,11 @@ Partial Class Customers
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.customerdgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel4 As Panel
@@ -496,11 +494,11 @@ Partial Class Customers
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents BunifuMaterialTextbox3 As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents CustPhoneTb As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents Label4 As Label
-    Friend WithEvents BunifuMaterialTextbox2 As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents CustAddressTb As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents Label3 As Label
-    Friend WithEvents BunifuMaterialTextbox1 As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Friend WithEvents CustNameTb As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label1 As Label
@@ -510,4 +508,5 @@ Partial Class Customers
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents customerdgv As Guna.UI2.WinForms.Guna2DataGridView
 End Class

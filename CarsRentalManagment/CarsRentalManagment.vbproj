@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0058CB11-EA81-4F38-A5D3-944DC63A914C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>CarsRentalManagment.Cars</StartupObject>
+    <StartupObject>CarsRentalManagment.Rent</StartupObject>
     <RootNamespace>CarsRentalManagment</RootNamespace>
     <AssemblyName>CarsRentalManagment</AssemblyName>
     <FileAlignment>512</FileAlignment>
